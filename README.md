@@ -13,8 +13,6 @@ with-env-variables.sh
 ---------------------
 Easy to use script where one has to just provide the aws access key, secret key and aws role Arn.</br> Based on the inputs, temporary session token will be created.</br> Session token along with access and secret keys can be used to fetch the resources from AWS. 
 
-Command:
-./with-env-variables.sh
 
 with-profile-option.sh
 ----------------------
@@ -25,9 +23,14 @@ Following AWS environment variables wil be used to override the default location
 AWS_SHARED_CREDENTIALS_FILE<br />
 AWS_CONFIG_FILE<br />
 
-Command:
-./with-profile-option.sh
 
+USAGE:
+---------------------
+Replace the following place holders with valid values:
+${awsAccessKeyId} - AWS access key 
+${awsSecretAccessKey} - AWS secret key
+${awsRegion} - AWS account region
+${awsRoleArn} - AWS assume role ARN.
 
 
 
