@@ -6,7 +6,6 @@ The repository contains teo script files. Any of these scripts can be used to ge
 Pre-requisites
 -----------------
 "jq" needs to be installed
-AWS Access key and secret key.
 
 
 with-env-variables.sh 
