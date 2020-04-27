@@ -21,7 +21,7 @@ Script creates the aws credentials and config file under temporary location. Scr
 
 Following AWS environment variables wil be used to override the default location of ".aws/credentials" and  "'.aws/config" files respectively.
 
-AWS_SHARED_CREDENTIALS_FILE
+AWS_SHARED_CREDENTIALS_FILE\n
 AWS_CONFIG_FILE
 
 Command:
