@@ -1,5 +1,7 @@
+#!/bin/sh
+
 set -e
-PATH=$PATH:/usr/bin/jq
+
 export AWS_ACCESS_KEY_ID=${awsAccessKeyId}
 export AWS_SECRET_ACCESS_KEY=${awsSecretAccessKey}
 export AWS_DEFAULT_REGION=${awsRegion}
