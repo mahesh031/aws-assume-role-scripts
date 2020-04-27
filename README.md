@@ -17,7 +17,7 @@ Command:
 
 with-profile-option.sh
 ----------------------
-Script creates the aws credentials and config file under temporary location. Script populates with proper credentials and porfiles file as well. 
+Script creates the aws credentials and config file under temporary location. Script populates the credentials and necessary porfile details as well. 
 
 Following AWS environment variables wil be used to override the default location of "~/.aws/credentials" and  "~/.aws/config" files respectively.
 
