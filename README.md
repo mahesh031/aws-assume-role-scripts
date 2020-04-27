@@ -26,11 +26,11 @@ AWS_CONFIG_FILE<br />
 
 USAGE:
 ---------------------
-Replace the following place holders with valid values:
-${awsAccessKeyId} - AWS access key 
-${awsSecretAccessKey} - AWS secret key
-${awsRegion} - AWS account region
-${awsRoleArn} - AWS assume role ARN.
+Replace the following place holders with valid values:<br />
+${awsAccessKeyId} - AWS access key <br />
+${awsSecretAccessKey} - AWS secret ke y<br />
+${awsRegion} - AWS account region <br />
+${awsRoleArn} - AWS assume role ARN <br />
 
 
 
